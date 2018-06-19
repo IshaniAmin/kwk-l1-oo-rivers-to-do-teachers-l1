@@ -5,6 +5,10 @@ class River
     @name = name
   end
 
+  def name=(name)
+    @name = name
+  end
+
   def length=(length)
     @length = length
   end
@@ -24,4 +28,5 @@ class River
   def dry_up
     @discharge = @discharge * 0.5
   end
+  
 end
